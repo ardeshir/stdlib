@@ -1,0 +1,6 @@
+» Movie{Rock of Ages} is being cleaned up
+» Alloc:	126920b
+» TotalAlloc:	131240b
+» Mallocs:	108
+» Frees:	20
+» PauseTotalNs:	159355ns

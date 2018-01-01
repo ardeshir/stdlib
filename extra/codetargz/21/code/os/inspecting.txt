@@ -1,0 +1,11 @@
+» process id: 26500
+» parent process id: 26499
+» user id: 501
+» group id: 20
+» effective user id: 0
+» effective group id: 20
+» groups you belong to: [20 503 501 12 61 79 80 81 98 399 502 402 33 100 204 398]
+» $GOPATH: /Users/darkhelmet/dev/go
+» $TMPDIR: /var/folders/t2/k4y07r396d5006j7y9w9zldc0000gn/T/
+» pagesize: 4096 bytes
+» hostname: ada.local

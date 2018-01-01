@@ -1,0 +1,4 @@
+» [79 75 59 32 102 105 108 108 101 100]
+» len(buffer)=10, bytesRead=10, err=<nil>, (OK; filled up buf, plenty of data)
+» [85 110 101 120 112 101 99 116 101 100 32 69 79 70 59 32 98 117 102 32 104 97 115 32 115 112 97 99 101 44 32 98 117 116 32 114 97 110 32 111 117 116 32 111 102 32 100 97 116 97 0 0 0 0 0]
+» len(buffer)=55, bytesRead=50, err=unexpected EOF, (Unexpected EOF; buf has space, but ran out of data)

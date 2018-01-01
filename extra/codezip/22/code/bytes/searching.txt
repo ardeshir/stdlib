@@ -1,0 +1,27 @@
+2014/08/21 18:02:14 golang contains lang
+2014/08/21 18:02:14 golang does NOT contain haskell
+2014/08/21 18:02:14 golang contains 1 instance(s) of lang
+2014/08/21 18:02:14 haskell contains 2 instance(s) of l
+2014/08/21 18:02:14 golang has the prefix go
+2014/08/21 18:02:14 haskell does NOT have the prefix go
+2014/08/21 18:02:14 golang has the suffix lang
+2014/08/21 18:02:14 haskell does NOT have the suffix lang
+2014/08/21 18:02:14 lang appears at index 2 in golang
+2014/08/21 18:02:14 go appears at index 0 in golang
+2014/08/21 18:02:14 lang does NOT appear in haskell
+2014/08/21 18:02:14 A unicode character in "lang" appears at index 0 in golang
+2014/08/21 18:02:14 A unicode character in "lang" appears at index 1 in haskell
+2014/08/21 18:02:14 No unicode characters in "go" appear in haskell
+2014/08/21 18:02:14 'h' does NOT appear in golang
+2014/08/21 18:02:14 'l' appears at index 2 in golang
+2014/08/21 18:02:14 'l' appears at index 5 in haskell
+2014/08/21 18:02:14 Something controlled by (func(int32) bool)(0x4680) appears at index 0 in golang
+2014/08/21 18:02:14 Something controlled by (func(int32) bool)(0x46a0) does NOT appear in haskell
+2014/08/21 18:02:14 Rune 111 appears at index 1 in golang
+2014/08/21 18:02:14 Rune 108 appears at index 5 in haskell
+2014/08/21 18:02:14 g appears last at index 5 in golang
+2014/08/21 18:02:14 l appears last at index 6 in haskell
+2014/08/21 18:02:14 A unicode character in "abcdefg" appears last at index 5 in golang
+2014/08/21 18:02:14 A unicode character in "lmnop" appears last at index 6 in haskell
+2014/08/21 18:02:14 Something controlled by (func(int32) bool)(0x46c0) appears at index 5 in golang
+2014/08/21 18:02:14 Something controlled by (func(int32) bool)(0x46e0) does NOT appear in haskell

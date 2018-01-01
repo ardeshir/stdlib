@@ -1,0 +1,10 @@
+» Peeked at the reader, saw: pack
+» Failed peeking at 5000 bytes: bufio: buffer full
+» Got first word: package 
+» Got rune U+006D of size 1 (it looks like 'm' in Go)
+» Didn't mean to read that though, putting it back
+» Read a byte: 6d
+» Didn't mean to read that either, putting it back
+» Got the rest of the line: main
+» Line fit in buffer, full line returned
+» After all that, 2023 bytes are buffered

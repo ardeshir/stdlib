@@ -1,0 +1,4 @@
+2014/08/21 18:02:13 Turned "golang" into "GOLANG" (ASCII alphabet upcase!)
+2014/08/21 18:02:13 Replaced "go" in "golang" with "Google Go" to get "Google Golang"
+2014/08/21 18:02:13 "golang" is made up of the following runes (in this case, ASCII codes): [103 111 108 97 110 103]
+2014/08/21 18:02:13 Made 8 copies of "Na" and appended " Batman!" to get "NaNaNaNaNaNaNaNa Batman!"

@@ -1,0 +1,24 @@
+» haystack: "Go, The Standard Library"
+» Index(",") 2
+» Index("t") 9
+» Index("The") 4
+» Index("x") -1
+» IndexAny(",thx") 2
+» IndexAny("ray") 10
+» IndexByte(',') 2
+» IndexByte('y') 23
+» IndexFunc("nonAlphaNumeric") 2
+» IndexFunc("unicode.IsLower") -1
+» IndexFunc("unicode.IsLower") 1
+» IndexRune('a') 10
+» IndexRune(' ') 3
+» IndexRune('.') -1
+» LastIndex("a") 21
+» LastIndex("r") 22
+» LastIndex("y") 23
+» LastIndex("\t") -1
+» LastIndexAny(",thx") 9
+» LastIndexAny("ray") 23
+» LastIndexFunc("nonAlphaNumeric") 16
+» LastIndexFunc("unicode.IsLower") -1
+» LastIndexFunc("unicode.IsLower") 23

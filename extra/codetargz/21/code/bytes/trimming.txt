@@ -1,0 +1,7 @@
+2014/08/21 18:02:14 Trim removed runes in " \t\r\n" from the ends of "  \t\r\n\r\n\r\n  hello!!!    \t\t\t\t" to produce "hello!!!"
+2014/08/21 18:02:14 TrimFunc removed 'odd' runes from "aabbccddee" to produce "bbccdd"
+2014/08/21 18:02:14 TrimLeft removed runes in " \t\r\n" from the left side of "  \t\r\n\r\n\r\n  hello!!!    \t\t\t\t" to produce "hello!!!    \t\t\t\t"
+2014/08/21 18:02:14 TrimLeftFunc removed 'odd' runes from the left side of "aabbccddee" to produce "bbccddee"
+2014/08/21 18:02:14 TrimRight removed runes in " \t\r\n" from the right side of "  \t\r\n\r\n\r\n  hello!!!    \t\t\t\t" to produce "  \t\r\n\r\n\r\n  hello!!!"
+2014/08/21 18:02:14 TrimRightFunc removed 'odd' runes from the right side of "aabbccddee" to produce "aabbccdd"
+2014/08/21 18:02:14 TrimSpace trimmed all whitespace from the ends of "  \t\r\n\r\n\r\n  hello!!!    \t\t\t\t" to produce "hello!!!"

@@ -1,0 +1,11 @@
+» goroutine 16 [running]:
+main.PrintStack()
+	/Users/darkhelmet/dev/github/darkhelmet/go-thestdlib/manuscript/code/runtime/callstack.go:15 +0x76
+main.main()
+	/Users/darkhelmet/dev/github/darkhelmet/go-thestdlib/manuscript/code/runtime/callstack.go:34 +0x1a
+» 8681 /Users/darkhelmet/dev/github/darkhelmet/go-thestdlib/manuscript/code/runtime/callstack.go 21 true
+» 9034 /Users/darkhelmet/dev/github/darkhelmet/go-thestdlib/manuscript/code/runtime/callstack.go 26 true
+» 9066 /Users/darkhelmet/dev/github/darkhelmet/go-thestdlib/manuscript/code/runtime/callstack.go 30 true
+» 9103 /Users/darkhelmet/dev/github/darkhelmet/go-thestdlib/manuscript/code/runtime/callstack.go 35 true
+» 73850 /Users/darkhelmet/local/go/src/pkg/runtime/proc.c 247 true
+» 84032 /Users/darkhelmet/local/go/src/pkg/runtime/proc.c 1445 true

@@ -1,0 +1,3 @@
+» &user.User{Uid:"501", Gid:"20", Username:"darkhelmet", Name:"Daniel Huckstep", HomeDir:"/Users/darkhelmet"}
+» &user.User{Uid:"4294967294", Gid:"4294967294", Username:"nobody", Name:"Unprivileged User", HomeDir:"/var/empty"}
+» &user.User{Uid:"1", Gid:"1", Username:"daemon", Name:"System Services", HomeDir:"/var/root"}

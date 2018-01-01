@@ -1,0 +1,7 @@
+2014/08/21 18:02:13 Title turned "The quick brown fox jumped over the lazy dog" into "The Quick Brown Fox Jumped Over The Lazy Dog"
+2014/08/21 18:02:13 ToTitle turned "The quick brown fox jumped over the lazy dog" to "THE QUICK BROWN FOX JUMPED OVER THE LAZY DOG"
+2014/08/21 18:02:13 ToTitleSpecial turned "The quick brown fox jumped over the lazy dog" into "THE QUİCK BROWN FOX JUMPED OVER THE LAZY DOG" using the Turkish case rules
+2014/08/21 18:02:13 ToLower turned "The Quick Brown Fox Jumped Over The Lazy Dog" into "the quick brown fox jumped over the lazy dog"
+2014/08/21 18:02:13 ToLowerSpecial turned "İ" into "i" using the Turkish case rules
+2014/08/21 18:02:13 ToUpper turned "The quick brown fox jumped over the lazy dog" to "THE QUICK BROWN FOX JUMPED OVER THE LAZY DOG"
+2014/08/21 18:02:13 ToUpperSpecial turned "The quick brown fox jumped over the lazy dog" into "THE QUİCK BROWN FOX JUMPED OVER THE LAZY DOG" using the Turkish case rules

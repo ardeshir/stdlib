@@ -1,0 +1,3 @@
+This is stdout
+This is stderr
+» read 25 from stdin: This data going on stdin

@@ -1,0 +1,8 @@
+2014/01/13 23:36:09 [5 2 9 8 7] false
+2014/01/13 23:36:09 [2 5 7 8 9] true
+2014/01/13 23:36:09 [robin batman thor loki captain america] false
+2014/01/13 23:36:09 [batman captain america loki robin thor] true
+2014/01/13 23:36:09 [1.5 2.3 0.5 0.4] false
+2014/01/13 23:36:09 [0.4 0.5 1.5 2.3] true
+2014/01/13 23:36:09 [{How much wood... A lot 4} {When did WWII start? 1939 5} {What color is the sky? Blue 2} {Who builds the iPhone? Apple 1} {Why is Go awesome? Lots of reasons 3}] false
+2014/01/13 23:36:09 [{Who builds the iPhone? Apple 1} {What color is the sky? Blue 2} {Why is Go awesome? Lots of reasons 3} {How much wood... A lot 4} {When did WWII start? 1939 5}] true

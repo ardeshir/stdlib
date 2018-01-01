@@ -1,0 +1,22 @@
+» haystack: "Go, The Standard Library"
+» Contains("Library") true
+» Contains("standard") false
+» Contains("Standard") true
+» ContainsAny("aeiou") true
+» ContainsAny("zyx") true
+» ContainsAny("\t\r") false
+» ContainsRune('a') true
+» ContainsRune(' ') true
+» ContainsRune('.') false
+» Count("") 25
+» Count("a") 3
+» Count(", ") 1
+» EqualFold("Go, The Standard Library") true
+» EqualFold("GO, THE STANDARD LIBRARY") true
+» EqualFold("go, the standard library") true
+» HasPrefix("Go") true
+» HasPrefix("GO") false
+» HasPrefix("Go, ") true
+» HasSuffix("Library") true
+» HasSuffix("") true
+» HasSuffix("Standard") false

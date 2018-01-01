@@ -1,0 +1,10 @@
+» DemoBefore
+» moon before now? true
+» DemoAfter
+» moon after now? false
+» DemoEqual
+» moon equal now? false
+» moon equal moon? true
+» moon: 1969-07-20 20:18:04 +0000 UTC
+» moonAlso: 1969-07-20 21:18:04 +0100 UTC+1
+» moon equal moonAlso? true

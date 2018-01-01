@@ -1,0 +1,6 @@
+» buf: AAAAAAAAAA
+» n=10, err=<nil>
+» buf: BBBBBBBBBB
+» n=10, err=<nil>
+» buf: CCCCCCCCCC
+» n=10, err=<nil>

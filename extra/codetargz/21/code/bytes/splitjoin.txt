@@ -1,0 +1,7 @@
+2014/08/21 18:02:14 Fields split "golang haskell ruby python" on whitespace into ["golang" "haskell" "ruby" "python"]
+2014/08/21 18:02:14 FieldsFunc split "golang haskell ruby python" on vowels and space into ["g" "l" "ng" "h" "sk" "ll" "r" "b" "p" "th" "n"]
+2014/08/21 18:02:14 Split split "golang haskell ruby python" on a single space into ["golang" "haskell" "ruby" "python"]
+2014/08/21 18:02:14 SplitN split "golang haskell ruby python" on a single space into 2 subslices: ["golang" "haskell ruby python"]
+2014/08/21 18:02:14 SplitAfter split "golang haskell ruby python" AFTER a single space (keeping the space) into ["golang " "haskell " "ruby " "python"]
+2014/08/21 18:02:14 SplitAfterN split "golang haskell ruby python" AFTER a single space (keeping the space) into 2 subslices: ["golang " "haskell ruby python"]
+2014/08/21 18:02:14 Languages are back togeher again! "golang haskell ruby python" == "golang haskell ruby python"? true

@@ -1,0 +1,4 @@
+» reading file "ioutil.go"
+» read 772 bytes with err <nil>
+» found 11 files in the current directory
+» read 772 bytes with err <nil>

@@ -1,0 +1,70 @@
+» DemoBool
+» true, %!s(<nil>)
+» true, %!s(<nil>)
+» false, %!s(<nil>)
+» false, strconv.ParseBool: parsing "wat": invalid syntax
+» true
+» false
+» DemoFloat
+» bitSize: 32, "1.0" => 1.000000, %!s(<nil>)
+» bitSize: 32, "-1.5" => -1.500000, %!s(<nil>)
+» bitSize: 32, "1e10" => 10000000000.000000, %!s(<nil>)
+» bitSize: 32, "wat" => 0.000000, strconv.ParseFloat: parsing "wat": invalid syntax
+» bitSize: 32, "4e38" => +Inf, strconv.ParseFloat: parsing "4e38": value out of range
+» bitSize: 64, "4e38" => 399999999999999990995239293824136118272.000000, %!s(<nil>)
+» fmt: 'e', prec:  5, bitSize: 32 => 1.12346e+00
+» fmt: 'e', prec:  5, bitSize: 64 => 1.12346e+00
+» fmt: 'e', prec: 10, bitSize: 32 => 1.1234567165e+00
+» fmt: 'e', prec: 10, bitSize: 64 => 1.1234567000e+00
+» fmt: 'e', prec: 15, bitSize: 32 => 1.123456716537476e+00
+» fmt: 'e', prec: 15, bitSize: 64 => 1.123456700000000e+00
+» fmt: 'f', prec:  5, bitSize: 32 => 1.12346
+» fmt: 'f', prec:  5, bitSize: 64 => 1.12346
+» fmt: 'f', prec: 10, bitSize: 32 => 1.1234567165
+» fmt: 'f', prec: 10, bitSize: 64 => 1.1234567000
+» fmt: 'f', prec: 15, bitSize: 32 => 1.123456716537476
+» fmt: 'f', prec: 15, bitSize: 64 => 1.123456700000000
+» fmt: 'g', prec:  5, bitSize: 32 => 1.1235
+» fmt: 'g', prec:  5, bitSize: 64 => 1.1235
+» fmt: 'g', prec: 10, bitSize: 32 => 1.123456717
+» fmt: 'g', prec: 10, bitSize: 64 => 1.1234567
+» fmt: 'g', prec: 15, bitSize: 32 => 1.12345671653748
+» fmt: 'g', prec: 15, bitSize: 64 => 1.1234567
+» fmt: 'e', prec:  5, bitSize: 32 => +Inf
+» fmt: 'e', prec:  5, bitSize: 64 => 4.00000e+38
+» fmt: 'e', prec: 10, bitSize: 32 => +Inf
+» fmt: 'e', prec: 10, bitSize: 64 => 4.0000000000e+38
+» fmt: 'e', prec: 15, bitSize: 32 => +Inf
+» fmt: 'e', prec: 15, bitSize: 64 => 4.000000000000000e+38
+» fmt: 'f', prec:  5, bitSize: 32 => +Inf
+» fmt: 'f', prec:  5, bitSize: 64 => 399999999999999990995239293824136118272.00000
+» fmt: 'f', prec: 10, bitSize: 32 => +Inf
+» fmt: 'f', prec: 10, bitSize: 64 => 399999999999999990995239293824136118272.0000000000
+» fmt: 'f', prec: 15, bitSize: 32 => +Inf
+» fmt: 'f', prec: 15, bitSize: 64 => 399999999999999990995239293824136118272.000000000000000
+» fmt: 'g', prec:  5, bitSize: 32 => +Inf
+» fmt: 'g', prec:  5, bitSize: 64 => 4e+38
+» fmt: 'g', prec: 10, bitSize: 32 => +Inf
+» fmt: 'g', prec: 10, bitSize: 64 => 4e+38
+» fmt: 'g', prec: 15, bitSize: 32 => +Inf
+» fmt: 'g', prec: 15, bitSize: 64 => 4e+38
+» DemoInt
+» base:  2, bitSize: 32, "101101010" => 362, %!s(<nil>)
+» base:  2, bitSize: 32, "10" => 2, %!s(<nil>)
+» base:  2, bitSize: 32, "8" => 0, strconv.ParseInt: parsing "8": invalid syntax
+» base:  2, bitSize: 32, "1010101010101010101010101010101010101010" => 2147483647, strconv.ParseInt: parsing "1010101010101010101010101010101010101010": value out of range
+» base:  2, bitSize: 64, "1010101010101010101010101010101010101010" => 733007751850, %!s(<nil>)
+» base:  8, bitSize:  8, "12345" => 127, strconv.ParseInt: parsing "12345": value out of range
+» base:  8, bitSize:  8, "7" => 7, %!s(<nil>)
+» base: 10, bitSize: 32, "12345" => 12345, %!s(<nil>)
+» base: 10, bitSize: 32, "7" => 7, %!s(<nil>)
+» base: 16, bitSize: 32, "abcdef" => 11259375, %!s(<nil>)
+» base:  0, bitSize: 32, "0xff" => 255, %!s(<nil>)
+» base:  0, bitSize: 32, "0644" => 420, %!s(<nil>)
+» base:  0, bitSize: 32, "255" => 255, %!s(<nil>)
+» base:  2, 100 => "1100100"
+» base:  3, 100 => "10201"
+» base:  4, 100 => "1210"
+» base:  5, -100 => "-400"
+» base: 10, 100 => "100"
+» base: 16, 1250 => "4e2"

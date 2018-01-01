@@ -1,0 +1,36 @@
+» Name: .gitignore, Size: 20b
+» Name: demo.txt, Size: 72b
+» Name: expand.go, Size: 537b
+» Name: expand.txt, Size: 129b
+» Name: file_info.go, Size: 785b
+» Name: file_info.txt, Size: 0b
+» Name: file_io.go, Size: 1824b
+» Name: file_io.txt, Size: 349b
+» Name: inspecting, Size: 2081952b
+» Name: inspecting.go, Size: 1018b
+» Name: inspecting.txt, Size: 360b
+» Name: Makefile, Size: 315b
+» Name: managing_files.go, Size: 1076b
+» Name: moving.go, Size: 920b
+» Name: moving.txt, Size: 433b
+» Name: permissions.go, Size: 474b
+» Name: stdio.go, Size: 645b
+» Name: stdio.txt, Size: 78b
+» .gitignore
+» demo.txt
+» expand.go
+» expand.txt
+» file_info.go
+» file_info.txt
+» file_io.go
+» file_io.txt
+» inspecting
+» inspecting.go
+» inspecting.txt
+» Makefile
+» managing_files.go
+» moving.go
+» moving.txt
+» permissions.go
+» stdio.go
+» stdio.txt

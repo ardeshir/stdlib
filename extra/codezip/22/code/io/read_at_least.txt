@@ -1,0 +1,3 @@
+» len(buffer)=10, min=5, bytesRead=10, err=<nil>, (OK; read less than buf can handle, plenty of data)
+» len(buffer)=100, min=75, bytesRead=50, err=unexpected EOF, (Unexpected EOF; buf has space, but ran out of data)
+» len(buffer)=10, min=15, bytesRead=0, err=short buffer, (Short buffer; trying to read more than buf can handle)

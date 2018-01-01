@@ -1,0 +1,16 @@
+/Users/darkhelmet/dev/github/darkhelmet/go-thestdlib/manuscript/code/runtime/debug.go:19 (0x206a)
+	C: debug.PrintStack()
+/Users/darkhelmet/dev/github/darkhelmet/go-thestdlib/manuscript/code/runtime/debug.go:23 (0x208a)
+	B: C()
+/Users/darkhelmet/dev/github/darkhelmet/go-thestdlib/manuscript/code/runtime/debug.go:27 (0x20aa)
+	A: B()
+/Users/darkhelmet/dev/github/darkhelmet/go-thestdlib/manuscript/code/runtime/debug.go:42 (0x2367)
+	main: A()
+/Users/darkhelmet/local/go/src/pkg/runtime/proc.c:247 (0x1209a)
+	main: main·main();
+/Users/darkhelmet/local/go/src/pkg/runtime/proc.c:1445 (0x14860)
+	goexit: runtime·goexit(void)
+» LastGC:	2014-07-01 23:39:07.601611649 -0600 MDT
+» PauseTotal:	189.501us
+» NumGC:	3
+» Pause:	[51.426us 45.349us 92.726us]

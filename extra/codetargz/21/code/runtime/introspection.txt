@@ -1,0 +1,5 @@
+» GOOS:	darwin
+» GOARCH:	amd64
+» GOROOT:	/Users/darkhelmet/local/go
+» Compiler:	gc
+» Version:	go1.3

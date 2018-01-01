@@ -1,0 +1,6 @@
+» copying 67 bytes to os.Stdout
+I'm writing strings to this buffer and we'll copy it to os.Stdout.
+» have 67 bytes, only copying 32 to os.Stdout
+I'm writing strings to this buff
+I'm writing strings to this buffer and we'll copy it to os.Stdout.
+» copied 32 and then 35 bytes to os.Stdout

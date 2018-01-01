@@ -1,0 +1,10 @@
+» pushing 1
+» pushing 2
+» pushing 1 + 2 => 3
+» pushing 3
+» pushing 3 * 3 => 9
+» pushing 2
+» pushing 9 / 2 => 4.5
+» pushing 10
+» pushing 4.5 - 10 => -5.5
+» => -5.5

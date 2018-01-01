@@ -1,0 +1,2 @@
+» Wrote rune in 1 bytes
+» Wrote string in 23 bytes

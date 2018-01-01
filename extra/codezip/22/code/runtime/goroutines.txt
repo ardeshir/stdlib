@@ -1,0 +1,7 @@
+» GOMAXPROCS: 1
+» GOMAXPROCS: 8
+» There are 4 goroutines running
+» There are 5 goroutines running
+» in the goroutine
+» locked to this OS thread
+» unlocked

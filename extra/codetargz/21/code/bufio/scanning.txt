@@ -1,0 +1,226 @@
+» line: package main
+» line: 
+» line: import (
+» line: 	"bufio"
+» line: 	"log"
+» line: 	"os"
+» line: 	"strings"
+» line: 	"unicode/utf8"
+» line: )
+» line: 
+» line: func init() {
+» line: 	log.SetFlags(0)
+» line: 	log.SetPrefix("» ")
+» line: }
+» line: 
+» line: func lines() {
+» line: 	f, _ := os.Open("scanning.go")
+» line: 	defer f.Close()
+» line: 	s := bufio.NewScanner(f)
+» line: 	for s.Scan() {
+» line: 		log.Printf("line: %s", s.Text())
+» line: 	}
+» line: }
+» line: 
+» line: func words() {
+» line: 	r := strings.NewReader("I just wanna dance with somebody")
+» line: 	s := bufio.NewScanner(r)
+» line: 	s.Split(bufio.ScanWords)
+» line: 	for s.Scan() {
+» line: 		log.Printf("word: %s", s.Text())
+» line: 	}
+» line: }
+» line: 
+» line: func runes() {
+» line: 	r := strings.NewReader("I just wanna dance with somebody")
+» line: 	s := bufio.NewScanner(r)
+» line: 	s.Split(bufio.ScanRunes)
+» line: 	for s.Scan() {
+» line: 		log.Printf("rune: %s", s.Text())
+» line: 	}
+» line: }
+» line: 
+» line: // Basically the `ScanWords` code, altered to split on periods.
+» line: func periods(data []byte, atEOF bool) (int, []byte, error) {
+» line: 	start := 0
+» line: 	for width := 0; start < len(data); start += width {
+» line: 		var r rune
+» line: 		r, width = utf8.DecodeRune(data[start:])
+» line: 		if r != '.' {
+» line: 			break
+» line: 		}
+» line: 	}
+» line: 	if atEOF && len(data) == 0 {
+» line: 		return 0, nil, nil
+» line: 	}
+» line: 	for width, i := 0, start; i < len(data); i += width {
+» line: 		var r rune
+» line: 		r, width = utf8.DecodeRune(data[i:])
+» line: 		if r == '.' {
+» line: 			return i + width, data[start:i], nil
+» line: 		}
+» line: 	}
+» line: 	return 0, nil, nil
+» line: }
+» line: 
+» line: func custom() {
+» line: 	f, _ := os.Open("scanning.go")
+» line: 	defer f.Close()
+» line: 	s := bufio.NewScanner(f)
+» line: 	s.Split(periods)
+» line: 	for s.Scan() {
+» line: 		log.Printf("between periods: %s", s.Text())
+» line: 	}
+» line: }
+» line: 
+» line: func main() {
+» line: 	lines()
+» line: 	words()
+» line: 	runes()
+» line: 	custom()
+» line: }
+» word: I
+» word: just
+» word: wanna
+» word: dance
+» word: with
+» word: somebody
+» rune: I
+» rune:  
+» rune: j
+» rune: u
+» rune: s
+» rune: t
+» rune:  
+» rune: w
+» rune: a
+» rune: n
+» rune: n
+» rune: a
+» rune:  
+» rune: d
+» rune: a
+» rune: n
+» rune: c
+» rune: e
+» rune:  
+» rune: w
+» rune: i
+» rune: t
+» rune: h
+» rune:  
+» rune: s
+» rune: o
+» rune: m
+» rune: e
+» rune: b
+» rune: o
+» rune: d
+» rune: y
+» between periods: package main
+
+import (
+	"bufio"
+	"log"
+	"os"
+	"strings"
+	"unicode/utf8"
+)
+
+func init() {
+	log
+» between periods: SetFlags(0)
+	log
+» between periods: SetPrefix("» ")
+}
+
+func lines() {
+	f, _ := os
+» between periods: Open("scanning
+» between periods: go")
+	defer f
+» between periods: Close()
+	s := bufio
+» between periods: NewScanner(f)
+	for s
+» between periods: Scan() {
+		log
+» between periods: Printf("line: %s", s
+» between periods: Text())
+	}
+}
+
+func words() {
+	r := strings
+» between periods: NewReader("I just wanna dance with somebody")
+	s := bufio
+» between periods: NewScanner(r)
+	s
+» between periods: Split(bufio
+» between periods: ScanWords)
+	for s
+» between periods: Scan() {
+		log
+» between periods: Printf("word: %s", s
+» between periods: Text())
+	}
+}
+
+func runes() {
+	r := strings
+» between periods: NewReader("I just wanna dance with somebody")
+	s := bufio
+» between periods: NewScanner(r)
+	s
+» between periods: Split(bufio
+» between periods: ScanRunes)
+	for s
+» between periods: Scan() {
+		log
+» between periods: Printf("rune: %s", s
+» between periods: Text())
+	}
+}
+
+// Basically the `ScanWords` code, altered to split on periods
+» between periods: 
+func periods(data []byte, atEOF bool) (int, []byte, error) {
+	start := 0
+	for width := 0; start < len(data); start += width {
+		var r rune
+		r, width = utf8
+» between periods: DecodeRune(data[start:])
+		if r != '
+» between periods: ' {
+			break
+		}
+	}
+	if atEOF && len(data) == 0 {
+		return 0, nil, nil
+	}
+	for width, i := 0, start; i < len(data); i += width {
+		var r rune
+		r, width = utf8
+» between periods: DecodeRune(data[i:])
+		if r == '
+» between periods: ' {
+			return i + width, data[start:i], nil
+		}
+	}
+	return 0, nil, nil
+}
+
+func custom() {
+	f, _ := os
+» between periods: Open("scanning
+» between periods: go")
+	defer f
+» between periods: Close()
+	s := bufio
+» between periods: NewScanner(f)
+	s
+» between periods: Split(periods)
+	for s
+» between periods: Scan() {
+		log
+» between periods: Printf("between periods: %s", s

@@ -1,0 +1,19 @@
+» got USR1, adding 2
+» val: 2
+» got USR2, subtracting 1
+» val: 1
+» got USR1, adding 2
+» val: 3
+» got USR2, subtracting 1
+» val: 2
+» got USR1, adding 2
+» val: 4
+» got USR2, subtracting 1
+» val: 3
+» got USR1, adding 2
+» val: 5
+» got USR2, subtracting 1
+» val: 4
+» got USR1, adding 2
+» val: 6
+signal: killed

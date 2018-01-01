@@ -1,0 +1,8 @@
+» true
+» true, 3.14e+00
+» true, 3.14e+00, 52
+» true, 3.14e+00, 52, "bat\"man"
+» true, 3.14e+00, 52, "bat\"man", 'ヰ'
+» true, 3.14e+00, 52, "bat\"man", 'ヰ', '\u30f0'
+» true, 3.14e+00, 52, "bat\"man", 'ヰ', '\u30f0', "\u30f0\u30f1"
+» true, 3.14e+00, 52, "bat\"man", 'ヰ', '\u30f0', "\u30f0\u30f1", 1010

@@ -1,0 +1,11 @@
+» wrote 60 bytes to demo.txt
+» contents:
+"And live from New York, it's Saturday Night!" - Cast of SNL
+» wrote another 12 bytes to demo.txt
+» contents:
+"And live from New York, it's Saturday Night!" - Cast of SNL
+Since 1985
+» wrote another 1 bytes to demo.txt
+» contents:
+"And live from New York, it's Saturday Night!" - Cast of SNL
+Since 1975

@@ -1,0 +1,36 @@
+tar header
+Name:       write_tar.go
+Mode:       644
+UID:        0
+GID:        0
+Size:       1441
+ModTime:    2014-03-07 23:02:17 -0700 MST
+Typeflag:   '\x00'
+Linkname:   
+Uname:      
+Gname:      
+Devmajor:   0
+Devminor:   0
+AccessTime: 0001-01-01 00:00:00 +0000 UTC
+ChangeTime: 0001-01-01 00:00:00 +0000 UTC
+Contents:
+
+<snip contents of writer_tar.go>
+tar header
+Name:       read_tar.go
+Mode:       644
+UID:        0
+GID:        0
+Size:       1484
+ModTime:    2014-03-07 23:00:03 -0700 MST
+Typeflag:   '\x00'
+Linkname:   
+Uname:      
+Gname:      
+Devmajor:   0
+Devminor:   0
+AccessTime: 0001-01-01 00:00:00 +0000 UTC
+ChangeTime: 0001-01-01 00:00:00 +0000 UTC
+Contents:
+
+<snip contents of read_tar.go>

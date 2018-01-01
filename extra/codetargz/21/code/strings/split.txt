@@ -1,0 +1,6 @@
+» []string{"who", "what", "when", "where", "why"}
+» []string{"who", "what,when,where,why"}
+» []string{"who,", "what,", "when,", "where,", "why"}
+» []string{"who,", "what,", "when,where,why"}
+» []string{"The", "quick", "brown", "Fox", "jumps", "over", "the", "lazy", "Dog."}
+» []string{"   ", "he  quick brown ", "ox jumps    over the lazy ", "og."}

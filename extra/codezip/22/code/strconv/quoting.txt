@@ -1,0 +1,7 @@
+» "\n\n    \"wat\"\n\n"
+» '\a'
+» '\u30f0'
+» "\u30f0"
+»  invalid syntax
+» 
+	 <nil>

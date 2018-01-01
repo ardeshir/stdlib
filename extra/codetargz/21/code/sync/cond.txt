@@ -1,0 +1,25 @@
+2014/09/13 21:54:32 starting
+2014/09/13 21:54:35 getData: Batman
+2014/09/13 21:54:35 getData: Batman
+2014/09/13 21:54:35 getData: Batman
+2014/09/13 21:54:35 getData: Batman
+2014/09/13 21:54:35 getData: Batman
+2014/09/13 21:54:38 getData: Robin
+2014/09/13 21:54:38 getData: Robin
+2014/09/13 21:54:38 getData: Robin
+2014/09/13 21:54:38 getData: Robin
+2014/09/13 21:54:38 getData: Robin
+2014/09/13 21:54:38 getData: Batman
+2014/09/13 21:54:38 getData: Robin
+2014/09/13 21:54:39 getData: Batman
+2014/09/13 21:54:39 getData: Robin
+2014/09/13 21:54:41 getData: Captain America
+2014/09/13 21:54:41 getData: Captain America
+2014/09/13 21:54:41 getData: Captain America
+2014/09/13 21:54:41 getData: Captain America
+2014/09/13 21:54:41 getData: Captain America
+2014/09/13 21:54:44 getData: Thor
+2014/09/13 21:54:44 getData: Thor
+2014/09/13 21:54:44 getData: Thor
+2014/09/13 21:54:44 getData: Thor
+2014/09/13 21:54:44 getData: Thor

@@ -1,0 +1,15 @@
+» dropped table (if it existed) shows
+» created table shows
+» inserted 1 Swedish TV show
+» LastInsertId: 1
+» RowsAffected: 1
+» inserted show "Top Gear" for country "UK"
+» inserted show "Wilfred" for country "AU"
+» inserted show "Top Gear" for country "US"
+» inserted show "Arctic Air" for country "CA"
+» committed transaction, 4 new shows added
+» there are 5 TV shows in the database
+» Found 1 CA TV show: Arctic Air
+» found 2 shows named "Top Gear"
+» 	...in country UK
+» 	...in country US

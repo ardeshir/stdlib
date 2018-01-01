@@ -1,0 +1,3 @@
+» buf: Get to the choppa!
+»   b: Get to the choppa!
+» n=18, err=<nil>

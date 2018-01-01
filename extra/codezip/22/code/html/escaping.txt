@@ -1,0 +1,17 @@
+html.EscapeString
+	hello -> hello
+	<i>hello</i> -> &lt;i&gt;hello&lt;/i&gt;
+	alert('hello'); -> alert(&#39;hello&#39;);
+	foo & bar -> foo &amp; bar
+	"how are you?" he asked. -> &#34;how are you?&#34; he asked.
+html.UnescapeString(html.EscapeString)
+	hello -> hello
+	<i>hello</i> -> <i>hello</i>
+	alert('hello'); -> alert('hello');
+	foo & bar -> foo & bar
+	"how are you?" he asked. -> "how are you?" he asked.
+html.UnescapeString
+	&#225; -> á
+	&raquo; -> »
+	&middot; -> ·
+	&lt;i&gt;hello&lt;/i&gt; -> <i>hello</i>

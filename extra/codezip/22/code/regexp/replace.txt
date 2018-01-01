@@ -1,0 +1,2 @@
+2014/01/13 21:05:08 2013-12-02T02:40:57.049407+00:00 app: at=info method=POST path=/login token=[REDACTED] host=example.com password=[REDACTED] connect=1ms service=82ms status=200 bytes=809
+2014/01/13 21:05:08 2013-12-02T02:40:57.049407+00:00 app: AT=info METHOD=POST PATH=/login TOKEN=secret HOST=example.com PASSWORD=sekrit CONNECT=1ms SERVICE=82ms STATUS=200 BYTES=809

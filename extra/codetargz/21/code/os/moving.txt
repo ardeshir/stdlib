@@ -1,0 +1,5 @@
+» found 8 files in /Users/darkhelmet/dev/github/darkhelmet/go-thestdlib/manuscript/code/os
+» found 38 files in /Users/darkhelmet/dev/github/darkhelmet/go-thestdlib/manuscript/code
+» found 15 files in /Users/darkhelmet/dev/github/darkhelmet/go-thestdlib/manuscript
+» found 2 files in /Users/darkhelmet/dev/github/darkhelmet/go-thestdlib/manuscript/code/log
+» found 4 files in /Users/darkhelmet/dev/github/darkhelmet/go-thestdlib

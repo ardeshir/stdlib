@@ -1,0 +1,9 @@
+2014/08/21 18:02:14 *bytes.Reader is an io.ByteReader
+2014/08/21 18:02:14 *bytes.Reader is an io.ByteScanner
+2014/08/21 18:02:14 *bytes.Reader is an io.ReadSeeker
+2014/08/21 18:02:14 *bytes.Reader is an io.Reader
+2014/08/21 18:02:14 *bytes.Reader is an io.ReaderAt
+2014/08/21 18:02:14 *bytes.Reader is an io.RuneReader
+2014/08/21 18:02:14 *bytes.Reader is an io.RuneScanner
+2014/08/21 18:02:14 *bytes.Reader is an io.Seeker
+2014/08/21 18:02:14 *bytes.Reader is an io.WriterTo

@@ -1,0 +1,7 @@
+2014/08/21 18:02:13 golang and golang are equal
+2014/08/21 18:02:13 golang is less than haskell
+2014/08/21 18:02:13 haskell is greater than golang
+2014/08/21 18:02:13 golang and golang are equal
+2014/08/21 18:02:13 golang and haskell are NOT equal
+2014/08/21 18:02:13 golang and gOlaNg are equal
+2014/08/21 18:02:13 golang and golang are equal

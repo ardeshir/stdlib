@@ -56,10 +56,10 @@ func main() {
 }
 
 func scanWithSscanln() {
-  fmt.Println("## scanWithSscan ##")
+  fmt.Println("## scanWithSscanln ##")
   var d1, d2 int
   var s1 string
-  fmt.Printf("Before scanning with Sscan: %d, %d, %s\n", d1, d2, s1)
+  fmt.Printf("Before scanning with Sscanln: %d, %d, %s\n", d1, d2, s1)
   if _, err := fmt.Sscanln("5 7 9\n", &d1, &d2, &s1); err != nil {
     fmt.Println(err)
     return
@@ -97,7 +97,6 @@ func scanWithSscan() {
 
 // fmt.Printf stuff
 func outputStdout() {
-    fmt.Println("\n\n")
     fmt.Println(p)
     fmt.Printf("%v\n", p)
     /* fmt.Println(i, f, b, bi, ui, p)
